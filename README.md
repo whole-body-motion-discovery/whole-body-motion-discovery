@@ -10,7 +10,7 @@ teaser: /assets/psd/figures/psd_paradigm.png
 
 <header class="hero">
   <div class="wrap">
-    <div class="venue">Under review · Science Robotics</div>
+    <div class="venue">Under review</div>
     <h1>Predict, Slide, and Decide: Whole-Body Motion Discovery in Complex, Dynamic Environments</h1>
 
     <p class="authors">
