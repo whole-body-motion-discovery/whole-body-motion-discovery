@@ -1,0 +1,145 @@
+/* PSD project page — clean journal-style layout */
+:root {
+  --ink: #1a1a1a;
+  --muted: #5b5b5b;
+  --accent: #b3122e;      /* deep journal red */
+  --rule: #e2e2e2;
+  --bg-soft: #f6f5f3;
+  --maxw: 960px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #fff;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+
+/* ---------- Header ---------- */
+.hero { padding: 64px 0 32px; text-align: center; border-bottom: 1px solid var(--rule); }
+.venue {
+  display: inline-block;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent); border-radius: 2px;
+  padding: 4px 10px; margin-bottom: 20px;
+}
+.hero h1 {
+  font-size: clamp(30px, 4.6vw, 46px);
+  line-height: 1.15; font-weight: 700; margin: 0 auto 24px; max-width: 860px;
+}
+.authors { font-size: 19px; margin: 0 0 6px; }
+.authors span { white-space: nowrap; margin: 0 6px; }
+.affils {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 14px; color: var(--muted); margin: 8px 0 4px;
+}
+.affils sup, .authors sup { font-size: .7em; }
+
+.links { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.btn {
+  font-family: Inter, system-ui, sans-serif; font-size: 14px; font-weight: 500;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 9px 18px; border-radius: 999px;
+  background: var(--ink); color: #fff !important;
+}
+.btn:hover { background: var(--accent); text-decoration: none; }
+.btn.disabled { background: #bdbdbd; pointer-events: none; }
+
+/* ---------- Sections ---------- */
+section { padding: 48px 0; border-bottom: 1px solid var(--rule); }
+section:last-of-type { border-bottom: none; }
+h2 {
+  font-size: 28px; font-weight: 700; margin: 0 0 20px;
+  padding-bottom: 6px; border-bottom: 2px solid var(--accent); display: inline-block;
+}
+h3 { font-size: 21px; font-weight: 600; margin: 32px 0 10px; }
+
+.abstract p { text-align: justify; hyphens: auto; }
+p.eq { text-align: center; overflow-x: auto; }
+
+/* ---------- Figures ---------- */
+figure { margin: 28px 0; }
+figure img { width: 100%; height: auto; display: block; border-radius: 4px; }
+figure.narrow img { max-width: 620px; margin: 0 auto; }
+figcaption {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 14.5px; line-height: 1.55; color: var(--muted); margin-top: 10px;
+}
+figcaption b { color: var(--ink); }
+
+/* ---------- Video ---------- */
+.video {
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  background: #111; border-radius: 6px; overflow: hidden;
+}
+.video iframe, .video video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.video-placeholder {
+  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  border: 2px dashed #b9b9b9; border-radius: 6px; background: var(--bg-soft);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 16px;
+  font-family: Inter, system-ui, sans-serif; color: var(--muted);
+}
+.video-placeholder .play {
+  width: 56px; height: 56px; border-radius: 50%; background: #d5d5d5; margin-bottom: 12px; position: relative;
+}
+.video-placeholder .play::after {
+  content: ""; position: absolute; left: 22px; top: 17px;
+  border-style: solid; border-width: 11px 0 11px 17px; border-color: transparent transparent transparent #fff;
+}
+.video-placeholder strong { color: var(--ink); font-size: 15px; }
+.video-placeholder small { font-size: 12.5px; margin-top: 4px; }
+
+.video-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 20px; }
+.video-grid .clip h4 {
+  font-family: Inter, system-ui, sans-serif; font-size: 15px; font-weight: 600; margin: 10px 0 2px;
+}
+.video-grid .clip p { font-size: 15px; color: var(--muted); margin: 0; line-height: 1.5; }
+
+/* ---------- Operators / highlights ---------- */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 20px 0 8px; }
+.card { background: var(--bg-soft); border-top: 3px solid var(--accent); padding: 18px 18px 14px; border-radius: 2px; }
+.card .tag {
+  font-family: Inter, system-ui, sans-serif; font-size: 11.5px; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--accent);
+}
+.card h4 { margin: 4px 0 6px; font-size: 20px; }
+.card p { margin: 0; font-size: 15.5px; line-height: 1.55; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 24px 0; text-align: center; }
+.stat .num { font-size: 38px; font-weight: 700; color: var(--accent); line-height: 1.1; }
+.stat .lbl { font-family: Inter, system-ui, sans-serif; font-size: 13.5px; color: var(--muted); }
+
+/* ---------- Tables & code ---------- */
+table { border-collapse: collapse; width: 100%; font-family: Inter, system-ui, sans-serif; font-size: 14.5px; margin: 16px 0; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { border-bottom: 2px solid var(--ink); }
+
+pre {
+  background: var(--bg-soft); padding: 16px 18px; border-radius: 4px; overflow-x: auto;
+  font-size: 13.5px; line-height: 1.5;
+}
+code { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+
+.site-footer {
+  text-align: center; font-family: Inter, system-ui, sans-serif; font-size: 13px; color: var(--muted);
+  padding: 28px 24px 40px; border-top: 1px solid var(--rule);
+}
+
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .cards, .stats, .video-grid { grid-template-columns: 1fr; }
+  .hero { padding-top: 40px; }
+}

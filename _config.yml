@@ -1,0 +1,13 @@
+# GitHub Pages config for the PSD project page.
+# README.md is the homepage (via the jekyll-readme-index plugin, which GitHub Pages enables by default).
+# If your repo already has a _config.yml, merge these lines into it instead of replacing it.
+
+title: "Predict, Slide, and Decide"
+markdown: kramdown
+
+plugins:
+  - jekyll-readme-index
+
+# Keep the setup notes out of the published site
+exclude:
+  - SETUP.md
