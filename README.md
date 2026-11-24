@@ -32,7 +32,7 @@ teaser: /assets/psd/figures/psd_paradigm.png
       <a class="btn disabled" href="#">Paper (coming soon)</a>
       <a class="btn disabled" href="#">Supplementary</a>
       <a class="btn" href="#video">Video</a>
-      <a class="btn disabled" href="#">Code</a>
+      <a class="btn" href="https://github.com/hwyao/FLIQC_example_workspace_ros">Code</a>
       <a class="btn disabled" href="#">Data</a>
       <a class="btn" href="#bibtex">BibTeX</a>
     </div>
