@@ -136,7 +136,7 @@ teaser: /assets/psd/figures/psd_paradigm.png
   -->
   <div class="video-grid">
     <div class="clip">
-      <div class="video-placeholder"><div class="play"></div><strong>Video placeholder</strong><small>narrow_corridor.mp4</small></div>
+      <div class="video"><video src="{{ vid }}narrow_corridor.mp4" autoplay loop muted playsinline></video></div>
       <h4>Narrow corridor · Class I</h4>
       <p>Geometric tightness with a single valid path; e.g., shelving in a factory.</p>
     </div>
