@@ -46,15 +46,11 @@ teaser: /assets/psd/figures/psd_paradigm.png
   <!--
     VIDEO PLACEHOLDER: main teaser / Movie S1.
     Option A (YouTube) - replace the whole <div class="video-placeholder">…</div> with:
-      <div class="video"><iframe src="https://www.youtube.com/embed/VIDEO_ID?rel=0" title="PSD overview" allowfullscreen></iframe></div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/VIDEO_ID?rel=WBFb-Wml4-E" title="PSD overview" allowfullscreen></iframe></div>
     Option B (self-hosted mp4, keep it under ~25 MB for GitHub Pages):
       <div class="video"><video src="{{ vid }}teaser.mp4" poster="{{ fig }}psd_paradigm.png" controls muted playsinline></video></div>
   -->
-  <div class="video-placeholder">
-    <div class="play"></div>
-    <strong>Video placeholder: overview / Movie S1</strong>
-    <small>2–3 min summary: problem, PSD operators, simulation highlights, real-robot experiments</small>
-  </div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/WBFb-Wml4-E" title="PSD overview" allowfullscreen></iframe></div>
 </section>
 
 <!-- ================= ABSTRACT ================= -->
