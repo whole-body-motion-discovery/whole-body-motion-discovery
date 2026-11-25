@@ -222,9 +222,6 @@ teaser: /assets/psd/figures/psd_paradigm.png
 
 <p>In the bimanual tray task, the relative pose between the two end-effectors is the top-priority task. Trajectory tracking, tray-tilt control, joint-limit avoidance, and manipulability optimization run in its nullspace. When a constraint approaches its limit, the Discovery Switch raises that constraint's priority.</p>
 
-<!-- VIDEO PLACEHOLDER: replace with <div class="video"><video src="{{ vid }}tray_tilt.mp4" controls muted playsinline</video></div> -->
-<div class="video-placeholder"><div class="play"></div><strong>Video placeholder: bimanual tray transport</strong><small>tray_tilt.mp4: with and without the Decide operator (spill vs. no spill)</small></div>>
-
 <figure>
   <img src="{{ fig }}task_hierarchy.png" alt="Task priority switching">
   <figcaption><b>Prioritization scheme (Decide) for a stack of tasks.</b> The relative pose between the arms always stays primary, and the remaining tasks swap priority as their safety conditions require.</figcaption>
