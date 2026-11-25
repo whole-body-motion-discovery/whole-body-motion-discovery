@@ -3,11 +3,13 @@
 # If your repo already has a _config.yml, merge these lines into it instead of replacing it.
 
 title: "Predict, Slide, and Decide"
+url: "https://whole-body-motion-discovery.github.io"
+baseurl: ""
+theme: null
 markdown: kramdown
 
 plugins:
   - jekyll-readme-index
 
-# Keep the setup notes out of the published site
 exclude:
   - SETUP.md
