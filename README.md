@@ -141,17 +141,17 @@ teaser: /assets/psd/figures/psd_paradigm.png
       <p>Geometric tightness with a single valid path; e.g., shelving in a factory.</p>
     </div>
     <div class="clip">
-      <div class="video-placeholder"><div class="play"></div><strong>Video placeholder</strong><small>dynamic_maze.mp4</small></div>
+      <div class="video"><video src="{{ vid }}dynamic_maze.mp4" autoplay loop muted playsinline></video></div>
       <h4>Dynamic maze · Class I + II</h4>
       <p>Moving obstacles that force continuous re-planning; e.g., shared human–robot workspaces.</p>
     </div>
     <div class="clip">
-      <div class="video-placeholder"><div class="play"></div><strong>Video placeholder</strong><small>extreme_clutter.mp4</small></div>
+      <div class="video"><video src="{{ vid }}extreme_clutter.mp4" autoplay loop muted playsinline></video></div>
       <h4>Extreme clutter · Class I + II</h4>
       <p>Dense static obstacles forming a maze of narrow passages; e.g., reaching into a fridge.</p>
     </div>
     <div class="clip">
-      <div class="video-placeholder"><div class="play"></div><strong>Video placeholder</strong><small>dual_arm_tray.mp4</small></div>
+      <div class="video"><video src="{{ vid }}dual_arm_tray.mp4" autoplay loop muted playsinline></video></div>
       <h4>Dual-arm corridor · Class I + II + III</h4>
       <p>A bimanual system carries a tray with a cup of water through a corridor without spilling.</p>
     </div>
@@ -168,13 +168,13 @@ teaser: /assets/psd/figures/psd_paradigm.png
 <div class="video-grid">
   <div class="clip">
     <!-- VIDEO PLACEHOLDER: replace with <div class="video"><video src="{{ vid }}hw_shelf_in.mp4" autoplay loop muted playsinline></video></div> -->
-    <div class="video-placeholder"><div class="play"></div><strong>Video placeholder</strong><small>hw_shelf_in.mp4</small></div>
+    <div class="video"><video src="{{ vid }}hw_shelf_in.mp4" autoplay loop muted playsinline></video></div>
     <h4>Reaching into a shelf (narrow corridor)</h4>
     <p>Obstacles are avoided by sliding, which triggers switches between predictive agents.</p>
   </div>
   <div class="clip">
     <!-- VIDEO PLACEHOLDER: replace with <div class="video"><video src="{{ vid }}hw_shelf_out.mp4" autoplay loop muted playsinline></video></div> -->
-    <div class="video-placeholder"><div class="play"></div><strong>Video placeholder</strong><small>hw_shelf_out.mp4</small></div>
+    <div class="video"><video src="{{ vid }}hw_shelf_out.mp4" autoplay loop muted playsinline></video></div>
     <h4>Exiting a cluttered shelf (extreme clutter)</h4>
     <p>The arm leaves dense clutter with negligible increase in path length.</p>
   </div>
