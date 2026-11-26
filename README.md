@@ -255,7 +255,7 @@ teaser: /assets/psd/figures/psd_paradigm.png
 <pre><code class="language-bibtex">@article{laha2026psd,
   title   = {Predict, Slide, and Decide: Whole-Body Motion Discovery in Complex, Dynamic Environments},
   author  = {Laha, Riddhiman and Yao, Haowen and Huang, Bingkun and Eberle, Felix and Anand, Mahathi and Haddadin, Sami},
-  journal = {Science Robotics (under review)},
+  journal = {under review},
   year    = {2026}
 }
 </code></pre>
@@ -267,7 +267,7 @@ teaser: /assets/psd/figures/psd_paradigm.png
 
 <h2>Acknowledgments</h2>
 
-<p>We thank Prof. Luis Figueredo for insightful discussions, and Dr. Marvin Becker, Juraj Vrabel, and Jonathan Vorndamme for fruitful collaborations on earlier software implementations. This work was supported in part by the State of Bavaria through the Lighthouse Geriatronics project (StMWi Bayern, Grant 5140951), by LongLeif GaPa gGmbH (Grant 5140953), and by the German Research Foundation (DFG) under Germany's Excellence Strategy (EXC 2050/1, Project ID 390696704), Cluster of Excellence "Centre for Tactile Internet with Human-in-the-Loop" (CeTI) of Technische Universität Dresden.</p>
+<p>We thank Prof. Luis Figueredo for insightful discussions, and Dr. Marvin Becker, Juraj Vrabel, and Jonathan Vorndamme for fruitful collaborations on earlier software implementations. This work was supported in part by the State of Bavaria through the Lighthouse Geriatronics project (StMWi Bayern, Grant 5140951), by LongLeif GaPa gGmbH (Grant 5140953), and by the German Research Foundation (DFG) under Germany's Excellence Strategy (EXC 2050/1, Project ID 390696704), Cluster of Excellence "Centre for Tactile Internet with Human-in-the-Loop" (CeTI) of Technische Universität Dresden. The authors gratefully acknowledge the funding of this work by the Alfried Krupp von Bohlen und Halbach Foundation, the Deutsche Forschungsgemeinschaft through the Gottfried Wilhelm Leibniz Programme (award to S. Haddadin; grant no. HA7372/3-1)</p>
 
 </section>
 
